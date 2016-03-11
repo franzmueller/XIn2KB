@@ -1,0 +1,72 @@
+﻿<?xml version="1.0"?>
+<!--
+	This is the configuration file for XIn2KB.
+	
+	Inputs are definded as following:
+		<input>INPUT-ID</input>
+		
+		Please replace INPUT-ID with a number form this list:	
+			0	-	Triggers.Left
+			1	-	Triggers.Right
+			2	-	DPad.Up
+			3	-	DPad.Right
+			4	-	DPad.Down
+			5	-	DPad.Left
+			6	-	Buttons.Start
+			7	-	Buttons.Back
+			8	-	Buttons.LeftStick
+			9	-	Buttons.RightStick
+			10	-	Buttons.LeftShoulder
+			11	-	Buttons.RightShoulder
+			12	-	Buttons.Guide
+			13	-	Buttons.A
+			14	-	Buttons.B
+			15	-	Buttons.X
+			16	-	Buttons.Y
+			17	-	ThumbSticks.Left.X<0
+			18	-	ThumbSticks.Left.X>0
+			19	-	ThumbSticks.Left.Y<0
+			20	-	ThumbSticks.Left.Y>0
+			21	-	ThumbSticks.Right.X<0
+			22	-	ThumbSticks.Right.X>0
+			23	-	ThumbSticks.Right.Y<0
+			24	-	ThumbSticks.Right.Y>0
+		
+	Outputs are defined as following:
+		<output>Virtual-Key-Code</output>
+		
+    A Virtual Key Code is a number with leading 0x. You can find a list of all supported keys here:
+      https://msdn.microsoft.com/en-us/library/dd375731%28v=vs.85%29.aspx
+			
+		
+	A rule has to look like this, please replace INPUT-ID with a number from the list above.
+		<rule>
+			<input>INPUT-ID</input>		
+			<output>Text</output>
+		</rule>
+    
+    Example:
+      <rule>
+		<input>16</input>		
+		<output>0x35</output>
+	</rule>
+
+-->
+<settings>
+  <controller>
+    <playerindex>1</playerindex>
+    <!-- Add rules for controller 1 here -->    
+  </controller>
+  <controller>
+    <playerindex>2</playerindex>
+    <!-- Add rules for controller 2 here -->
+  </controller>
+  <controller>
+    <playerindex>3</playerindex>
+    <!-- Add rules for controller 3 here -->
+  </controller>
+  <controller>
+    <playerindex>4</playerindex>
+    <!-- Add rules for controller 4 here -->
+  </controller>
+</settings>
