@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0"?>
 <!--
-	This is the configuration file for XIn2KB.
+	This is the main configuration file for XIn2KB.
 	
 	Inputs are definded as following:
 		<input>INPUT-ID</input>
 		
-		Please replace INPUT-ID with a number form this list:	
+		Please replace INPUT-ID with a number from this list:	
 			0	-	Triggers.Left
 			1	-	Triggers.Right
 			2	-	DPad.Up
@@ -39,17 +39,17 @@
       https://msdn.microsoft.com/en-us/library/dd375731%28v=vs.85%29.aspx
 			
 		
-	A rule has to look like this, please replace INPUT-ID with a number from the list above.
+	A rule has to look like this, please replace INPUT-ID and Virtual-Key-Code with the lists mentioned above.
 		<rule>
 			<input>INPUT-ID</input>		
-			<output>Text</output>
+			<output>Virtual-Key-Code</output>
 		</rule>
     
     Example:
-      <rule>
-		<input>16</input>		
-		<output>0x35</output>
-	</rule>
+		<rule>
+			<input>16</input>		
+			<output>0x35</output>
+		</rule>
 
 -->
 <settings>
