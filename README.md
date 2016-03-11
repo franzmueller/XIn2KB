@@ -1,6 +1,9 @@
 # XIn2KB
 With XIn2KB you can easily translate your XInput Controller (for example the XBOX 360 Controller) into keystrokes. This is useful, because some applications don't support controllers at all or only support DirectInput controllers which comes with some downsides. With DirectInput you can't use the triggers both at once, with XInput you can.
 
+#Download
+Please download the latest version from <a href="https://github.com/franzmueller/XIn2KB/releases">the release page.</a>
+
 ##Setup
 XIn2KB is programmed to run out-of-the-box, all you have to do is create your rules. This is in fact harder than it should be at the moment, but this might change in the future if enough people actually use this program.
 
